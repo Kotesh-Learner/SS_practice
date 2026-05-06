@@ -12,14 +12,13 @@
 
 set -x #DEBUG Mode
 set -e #Exit's When encountered with error
-set -o #Exit's even pipeline used
+#set -o #Exit's even pipeline used
 #It will displays the disk Usage which are mounted
 df -h 
 
 # It will displays the Memory usage
 free -g
 
-echo "I am Kotesh" | echo" bandi"
 
 #It will displays how many CPU's are using
 nproc
