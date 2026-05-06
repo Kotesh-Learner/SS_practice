@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+#>>>>>>>>>>>>>>>>>>>>
+#Author: Kotesh_Learner
+
+#Date: 06/MAY/2026
+
+#This Script is about the node health
+
+#>>>>>>>>>>>>>>>>>>>>>
+
+set -x #DEBUG Mode
+
+#It will displays the disk Usage which are mounted
+df -h 
+
+# It will displays the Memory usage
+free -g
+
+
+
+#It will displays how many CPU's are using
+nproc
